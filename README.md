@@ -33,10 +33,10 @@ Checklist: adicionar segurança ao projeto
 
 4. Valores de configuração
 
-	1. security.client-id=${CLIENT_ID:myclientid}
-	2. security.client-secret=${CLIENT_SECRET:myclientsecret}
-	3. security.jwt.duration=${JWT_DURATION:86400}
-	4. cors.origins=${CORS_ORIGINS:http://localhost:3000,http://localhost:5173}
+	security.client-id=${CLIENT_ID:myclientid} \
+	security.client-secret=${CLIENT_SECRET:myclientsecret} \
+	security.jwt.duration=${JWT_DURATION:86400} \
+	cors.origins=${CORS_ORIGINS:http://localhost:3000,http://localhost:5173}
 
 5. Checklist OAuth2 JWT password grant
 * Implementação customizada do password grant
